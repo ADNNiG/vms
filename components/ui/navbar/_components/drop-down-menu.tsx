@@ -95,19 +95,19 @@ const DropDownMenu : React.FC<DropDownMenuProps> = ({onClose}) => {
                 <AccordionItem className='my-6 border-b' value='item-1'>
                     <AccordionTrigger>ADMISSIONS</AccordionTrigger>
                     <AccordionContent>
-                    <Link href={"/admissions"} className='flex pt-10' onClick={handleLinkClick}>
+                        {/* <Link href={"/admissions"} className='flex pt-10' onClick={handleLinkClick}>
                             <div>
                                 <UserPlus className='h-6 w-6 mr-4 text-orange-400' />
                             </div>
                             <div>Admissions</div>
-                        </Link>
+                        </Link> */}
                         <Link href={"/whychoosevms"} className='flex pt-10' onClick={handleLinkClick}>
                             <div>
                                 <UserPlus className='h-6 w-6 mr-4 text-orange-400' />
                             </div>
                             <div>Why Choose VMS?</div>
                         </Link>
-                        <Link href={"/tuition"} className='flex pt-10' onClick={handleLinkClick}>
+                        {/* <Link href={"/tuition"} className='flex pt-10' onClick={handleLinkClick}>
                             <div>
                                 <UserPlus className='h-6 w-6 mr-4 text-orange-400' />
                             </div>
@@ -118,7 +118,7 @@ const DropDownMenu : React.FC<DropDownMenuProps> = ({onClose}) => {
                                 <UserPlus className='h-6 w-6 mr-4 text-orange-400' />
                             </div>
                             <div>Entrance Examination</div>
-                        </Link>
+                        </Link> */}
                         <Link href={"/admissionprocess"} className='flex pt-10' onClick={handleLinkClick}>
                             <div>
                                 <UserPlus className='h-6 w-6 mr-4 text-orange-400' />
@@ -138,13 +138,13 @@ const DropDownMenu : React.FC<DropDownMenuProps> = ({onClose}) => {
                 <AccordionItem className='my-6 border-b' value='item-1'>
                     <AccordionTrigger>NEWS & EVENTS</AccordionTrigger>
                     <AccordionContent>
-                        <Link href={"/#"} className='flex pt-10' onClick={handleLinkClick}>
+                        <Link href={"/"} className='flex pt-10' onClick={handleLinkClick}>
                             <div>
                                 <UserPlus className='h-6 w-6 mr-4 text-orange-400' />
                             </div>
                             <div>News</div>
                         </Link>
-                        <Link href={"/#"} className='flex pt-10' onClick={handleLinkClick}>
+                        <Link href={"/"} className='flex pt-10' onClick={handleLinkClick}>
                             <div>
                                 <UserPlus className='h-6 w-6 mr-4 text-orange-400' />
                             </div>
@@ -157,19 +157,19 @@ const DropDownMenu : React.FC<DropDownMenuProps> = ({onClose}) => {
                 <AccordionItem className='my-6 border-b' value='item-1'>
                     <AccordionTrigger>PAY FEES</AccordionTrigger>
                     <AccordionContent>
-                        <Link href={"/summerschool"} className='flex pt-10' onClick={handleLinkClick}>
+                        <Link href={"/redirect"} className='flex pt-10' onClick={handleLinkClick}>
                             <div>
                                 <UserPlus className='h-6 w-6 mr-4 text-orange-400' />
                             </div>
                             <div>Summer School</div>
                         </Link>
-                        <Link href={"/schoolfees"} className='flex pt-10' onClick={handleLinkClick}>
+                        <Link href={"/redirect"} className='flex pt-10' onClick={handleLinkClick}>
                             <div>
                                 <UserPlus className='h-6 w-6 mr-4 text-orange-400' />
                             </div>
                             <div>School Fees</div>
                         </Link>
-                        <Link href={"/otherpayment"} className='flex pt-10' onClick={handleLinkClick}>
+                        <Link href={"/redirect"} className='flex pt-10' onClick={handleLinkClick}>
                             <div>
                                 <UserPlus className='h-6 w-6 mr-4 text-orange-400' />
                             </div>
@@ -182,42 +182,42 @@ const DropDownMenu : React.FC<DropDownMenuProps> = ({onClose}) => {
                 <AccordionItem className='my-6 border-b' value='item-1'>
                     <AccordionTrigger>ACADEMICS</AccordionTrigger>
                     <AccordionContent>
-                        <Link href={"/#"} className='flex pt-10' onClick={handleLinkClick}>
+                        {/* <Link href={"/#"} className='flex pt-10' onClick={handleLinkClick}>
                             <div>
                                 <UserPlus className='h-6 w-6 mr-4 text-orange-400' />
                             </div>
                             <div>Curriculum</div>
-                        </Link>
-                        <Link href={"/#"} className='flex pt-10' onClick={handleLinkClick}>
+                        </Link> */}
+                        <Link href={"/"} className='flex pt-10' onClick={handleLinkClick}>
                             <div>
                                 <UserPlus className='h-6 w-6 mr-4 text-orange-400' />
                             </div>
                             <div>Creche</div>
                         </Link>
-                        <Link href={"/#"} className='flex pt-10' onClick={handleLinkClick}>
+                        <Link href={"/"} className='flex pt-10' onClick={handleLinkClick}>
                             <div>
                                 <UserPlus className='h-6 w-6 mr-4 text-orange-400' />
                             </div>
                             <div>Pre School</div>
                         </Link>
-                        <Link href={"/#"} className='flex pt-10' onClick={handleLinkClick}>
+                        <Link href={"/"} className='flex pt-10' onClick={handleLinkClick}>
                             <div>
                                 <UserPlus className='h-6 w-6 mr-4 text-orange-400' />
                             </div>
                             <div>Basic</div>
                         </Link>
-                        <Link href={"/#"} className='flex pt-10' onClick={handleLinkClick}>
+                        <Link href={"/"} className='flex pt-10' onClick={handleLinkClick}>
                             <div>
                                 <UserPlus className='h-6 w-6 mr-4 text-orange-400' />
                             </div>
                             <div>College</div>
                         </Link>  
-                        <Link href={"/#"} className='flex pt-10' onClick={handleLinkClick}>
+                        {/* <Link href={"/"} className='flex pt-10' onClick={handleLinkClick}>
                             <div>
                                 <UserPlus className='h-6 w-6 mr-4 text-orange-400' />
                             </div>
                             <div>Sports</div>
-                        </Link>                             
+                        </Link>                              */}
                     </AccordionContent>                  
                 </AccordionItem>   
                     {/* <Link href={"/studentportal"} className='flex flex-1 items-center justify-between 
@@ -235,14 +235,14 @@ const DropDownMenu : React.FC<DropDownMenuProps> = ({onClose}) => {
             </Accordion>
             <div className='md:pt-32'>
                  <div className='flex items-center justify-center space-x-4'>
-                    <Link href={"/studentportal"}>
+                    <Link href={"/contactus"}>
                         <Button className='text-[#B90C1B] text-sm font-light
                         bg-[#eff0ff] rounded-[40px] hover:scale-110 transition-all
                         duration-300 hover:shadow-rose-300'>
                             CONTACT US
                         </Button>
                     </Link>
-                    <Link href={"/studentportal"}>
+                    <Link href={"/auth"}>
                         <Button className='text-sm font-light rounded-[40px] border-4
                         border-rose-400/90 py-6 bg-[#b90c1b] hover:scale-110 transition-all
                         duration-300 shadow-md hover:shadow-rose-300'>
