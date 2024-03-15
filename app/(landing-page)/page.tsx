@@ -11,7 +11,6 @@ import EightSection from "./_components/eight-section";
 import BottomCard from "@/components/ui/bottom-card";
 import BottomSection from "@/components/ui/bottom-section";
 import Footer from "@/components/ui/footer";
-import { HeroPage } from "../heropage/page";
 
 
 

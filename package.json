@@ -1,13 +1,15 @@
 {
   "name": "vms-nxt",
   "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+  "private": true, 
+  "homepage": "https://virtuemodelschool.com", 
+  
+    "scripts": {
+      "dev": "node server.js",
+      "build": "next build",
+      "start": "NODE_ENV=production node server.js"
+    },
+
   "dependencies": {
     "@auth/prisma-adapter": "^1.2.1",
     "@hookform/resolvers": "^3.3.4",
