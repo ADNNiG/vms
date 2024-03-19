@@ -15,17 +15,17 @@ export const {
 } = NextAuth({
   callbacks: {
   
-    async session({ token, session }) { 
-      console.log({ sessionToken: token, session, })     
-      if (token.sub && session.user) {
-      session.user.id = token.sub;
-    }
+    async session({ session }) { 
+      console.log({ sessionToken: session, })     
+    //   if (token.sub && session.user) {
+    //   session.user.id = token.sub;
+    // }
 
    
 
-    if (token.role && session.user) {
-      session.user.role = token.role as UserRole;
-    }
+    // if (token.role && session.user) {
+    //   session.user.role = token.role as UserRole;
+    //  }
       return session;
       
     },
